@@ -1,10 +1,30 @@
 <!doctype html>
-<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Maas Media Channels</title>
-<style>body{font:17px/1.6 -apple-system,system-ui,sans-serif;max-width:680px;margin:48px auto;padding:0 16px;color:#1a1a1a;background:#fff}a{color:#1a56db}</style></head>
+<meta name="description" content="Maas Media Channels is an internal, read-only YouTube analytics tool used by MAAS MEDIA to review the audience retention of the channels it produces.">
+<style>body{font:17px/1.6 -apple-system,system-ui,sans-serif;max-width:700px;margin:48px auto;padding:0 16px;color:#1a1a1a;background:#fff}a{color:#1a56db}h2{font-size:1.15em;margin-top:2em}code{background:#f2f2f2;padding:1px 5px;border-radius:4px;font-size:.92em}hr{border:0;border-top:1px solid #ddd;margin:3em 0}</style></head>
 <body>
 <h1>Maas Media Channels</h1>
-<p>Strumento interno di MAAS MEDIA per leggere, in sola lettura, le statistiche dei canali YouTube gestiti dall'azienda e analizzare la retention dei video.</p>
-<p>Non è un servizio pubblico: lo usano solo le persone che gestiscono i canali.</p>
-<p><a href="privacy.html">Informativa privacy</a></p>
+<p><strong>Maas Media Channels</strong> is an internal analytics tool built and operated by <strong>MAAS MEDIA</strong>, an Italian YouTube-first media company. It helps the people who run MAAS MEDIA's YouTube channels understand where viewers stop watching each video, so the next videos can be written and edited better.</p>
+
+<h2>What the app does</h2>
+<ol>
+<li>The manager of a YouTube channel signs in with Google and authorizes read-only access to that channel.</li>
+<li>Once a week the tool lists the channel's new long-form videos and reads each video's audience retention curve and reach statistics.</li>
+<li>It matches the retention curve with the video's public captions and writes a short internal report: the moments where viewers drop off, the parts that hold their attention, and the moments viewers rewatch.</li>
+</ol>
+<p>The app is read-only: it never uploads, edits or deletes anything on YouTube. It is not a public service and is used only by MAAS MEDIA staff for the channels they manage.</p>
+
+<h2>Google data it uses</h2>
+<ul>
+<li><code>youtube.readonly</code>: to identify the authorized channel and list its uploaded videos (title, publish date, duration, chapters).</li>
+<li><code>yt-analytics.readonly</code>: to read the channel's own audience retention curves (YouTube Analytics API) and thumbnail impressions and click-through rate (YouTube Reporting API).</li>
+</ul>
+<p>All data stays on the computer of the person running the tool. See the <a href="privacy.html">privacy policy</a>.</p>
+
+<h2>Contact</h2>
+<p>MAAS MEDIA · <a href="mailto:federico@maasmedia.it">federico@maasmedia.it</a></p>
+
+<hr>
+<p lang="it"><strong>In italiano.</strong> Maas Media Channels è lo strumento interno di MAAS MEDIA per leggere in sola lettura le statistiche dei canali YouTube dell'azienda e analizzare la retention dei video. Non pubblica, non modifica e non cancella nulla. <a href="privacy.html#it">Informativa privacy</a>.</p>
 </body></html>
